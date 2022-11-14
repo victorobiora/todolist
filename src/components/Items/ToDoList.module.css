@@ -1,0 +1,8 @@
+.toDo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+}

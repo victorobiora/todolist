@@ -1,0 +1,48 @@
+.forms {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.forms * {
+   margin-top: 1rem;
+}
+
+.taskInput {
+    text-align: left;
+}
+
+.taskInput label {
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+
+
+.input-task {
+    border-radius: 0.5rem;
+    border: 2px solid rgb(108, 85, 85);
+    width: 90%;
+    display: block;
+    border-color: rgb(219, 202, 202);
+    height: 3rem;
+    padding: 0.3rem;
+}
+
+.input-task:focus {
+    outline: none;
+    border-color: rgb(222, 69, 222);
+}
+
+.taskButton {
+    color: #ffff;
+    background-color: rgb(105, 19, 105);
+    padding: auto;
+    position: relative;
+    left: 23.3rem;
+    border-radius: 0.6rem;
+    border-color: transparent;
+    height: 3rem;
+    text-align: right;
+    cursor: pointer;
+}

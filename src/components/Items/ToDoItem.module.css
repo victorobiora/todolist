@@ -1,0 +1,15 @@
+.area {
+    background-color: aliceblue;
+    width: 15rem;
+    height: 17rem;
+    border-radius: 50rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.text {
+   color: purple;
+   position: relative;
+   top: 7rem;
+   width: 14rem;
+}
