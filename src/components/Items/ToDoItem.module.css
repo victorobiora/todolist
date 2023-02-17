@@ -7,9 +7,23 @@
     margin-top: 3rem;
 }
 
+
+
 .text {
    color: purple;
    position: relative;
    top: 7rem;
    width: 14rem;
+}
+
+.but {
+    width: 2.5rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(224, 43, 43);
+    border: 1px solid transparent;
+    position: relative;
+    top: 11rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
 }

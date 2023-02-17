@@ -15,7 +15,11 @@ const ToDoForm = props => {
         e.preventDefault()
         let totTask = reference.current.value;
         if(totTask.trim().length > 0) {
-            props.collectTask(totTask)
+            const taskObj = {
+                text: task,
+                id: Math.floor(Math.random()* 100000)
+            }
+            props.collectTask(taskObj)
             console.log(task)
         }
       
